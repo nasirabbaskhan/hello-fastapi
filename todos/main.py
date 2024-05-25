@@ -5,12 +5,12 @@ app= FastAPI()
 
 @app.get("/")
 def hello():
-    return "Hello aneela nasir cut off "
+    return "Hello word "
 
 @app.get("/getttodos")
 def getTodos():
     print("Get Todos called")
-    return "gettodos called Aneela "
+    return "gettodos called todo "
 
 @app.post("/getttodos")
 def getTodosPost():
@@ -19,7 +19,7 @@ def getTodosPost():
 
 @app.put("/update")
 def updated():
-    return "aneela has been updated"
+    return "you has been updated"
 
 
 @app.get("/getSingleTodos")
