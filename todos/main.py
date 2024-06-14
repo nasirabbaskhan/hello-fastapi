@@ -7,12 +7,12 @@ app= FastAPI()
 def hello():
     return "Hello word "
 
-@app.get("/getttodos")
+@app.get("/gettodos")
 def getTodos():
     print("Get Todos called")
     return "gettodos called todo "
 
-@app.post("/getttodos")
+@app.post("/gettodos")
 def getTodosPost():
     print("post Todos called")
     return "post Todos called"
@@ -25,6 +25,7 @@ def updated():
 @app.get("/getSingleTodos")
 def getSingleTodos():
     print("Get getSingleTodos called ")
+    return "You have get the single to do"
     
  # function to start the server   
 def start():

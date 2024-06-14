@@ -1,3 +1,7 @@
+# to install the pip
+
+pip install poetry
+
 # to crate fastapi project run command
 
 ```
